@@ -1,14 +1,27 @@
-#section1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.75em;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+h1 {
+    font-size: 175%;
 }
 
-#section2{
+#section1 {
+    border: 5px;
+    margin: 5px;
+    /*padding:*/
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.75em;
+    font-size: 100%;
 }
 
-#section3{
+#section2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.75em;
+    font-size: 100%;
+}
+
+#section3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
 }
