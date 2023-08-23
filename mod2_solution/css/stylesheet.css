@@ -36,6 +36,11 @@ h1 {
     background-color: #a7a4a4;
 }
 
+.title_region {
+    float: right top;
+    margin: 0;
+    padding: 0;
+}
 /* Responsive Design Framework*/
 
 @media (min-width: 992px) {
