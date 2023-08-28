@@ -3,46 +3,41 @@
     margin: 0;
     padding: 0;
   }
+
 h1 {
     font-size: 175%;
     text-align: center;
-    margin-bottom: 15px;
 }
-  
-div#Menü_Box {
+
+.Box {
+    background-color: aqua;
+    padding: 10px
+}
+
+.Menu_Box {
     position: relative;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
     border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
     background-color: #a7a4a4;
 }
 
-.section {
-    margin-top: 45px;
-    margin-left: 10px;
-    font-family: "Comic Sans MS", Helvetica, sans-serif;
-    font-size: 100%;
-    background-color: #a7a4a4;
-}
 #title_region_chicken {
-    position: absolute;
-    right: -1px;
-    top: -1px;
+    position: relative;
+    top: -12px;
+    left: 401px;
     padding: 3px 10px 3px 10px;
     width:150px;
     border: 2px solid black;
     background-color: rgba(209, 97, 78, 0.808);
     text-align: center;
-    font-family: "Comic Sans MS", Helvetica, sans-serif;
+    font-family:  "Comic Sans MS", Helvetica, sans-serif;
     font-size: 120%;
     font-weight: 600;
 }
 
 #title_region_beef {
-    position: absolute;
-    right: -1px;
-    top: -1px;
+    float: right;
     padding: 3px 10px 3px 10px;
     width:150px;
     border: 2px solid black;
@@ -51,12 +46,11 @@ div#Menü_Box {
     font-family: "Comic Sans MS", Helvetica, sans-serif;
     font-size: 120%;
     font-weight: 600;
+    color: white;
 }
 
 #title_region_sushi {
-    position: absolute;
-    right: -1px;
-    top: -1px;
+    float: right;
     padding: 3px 10px 3px 10px;
     width:150px;
     border: 2px solid black;
@@ -67,11 +61,45 @@ div#Menü_Box {
     font-weight: 600;
 }
 
+h1 {
+    margin-bottom: 50px;
+}
+#section1 {
+    font-family: "Comic Sans MS", Helvetica, sans-serif;
+    font-size: 100%;
+
+}
+
+#section2 {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Comic Sans MS", Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: #a7a4a4;
+}
+
+#section3 {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Comic Sans MS", Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: #a7a4a4;
+}
+
+.title_region {
+    float: right top;
+    margin: 0;
+    padding: 0;
+}
 /* Responsive Design Framework*/
+
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
     .col-lg-10, .col-lg-11, .col-lg-12 {
-        float: left;        
+        float: left;
+        border: 1px solid green;
     }
 
     .col-lg-1 {
@@ -116,6 +144,7 @@ div#Menü_Box {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9,
     .col-md-10, .col-md-11, .col-md-12 {
         float: left;
+        border: 1px solid green;
     }
 
     .col-md-1 {
@@ -157,10 +186,12 @@ div#Menü_Box {
 
 }
 
+/*
 @media (max-width: 767px) {
     .col-s-1, .col-s-2, .col-s-3, .col-s-4, .col-s-5, .col-s-6, .col-s-7, .col-s-8, .col-s-9,
     .col-s-10, .col-s-11, .col-s-12 {
         float: left;
+        border: 1px solid green;
     }
 
     .col-s-1 {
@@ -199,6 +230,6 @@ div#Menü_Box {
     .col-s-12 {
         width : 100%;
     }
-}
+    
 
- 
+}*/
